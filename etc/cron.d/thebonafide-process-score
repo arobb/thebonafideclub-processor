@@ -1,0 +1,3 @@
+SHELL=/bin/bash
+MAILTO=""
+/5 * * * *  app /opt/thebonafideclub-processor/run.sh
