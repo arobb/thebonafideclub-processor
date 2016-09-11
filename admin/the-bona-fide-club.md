@@ -1,3 +1,5 @@
+![The Bona Fide Club header image](https://github.com/arobb/thebonafideclub-processor/raw/master/admin/the-bona-fide-club-wide.png)
+
 ## Inspiration  
 The Bone Fide Club is the dating site for genuine people. We believe that past experience is incredibly powerful when harnessed to inform your future.
 
