@@ -12,7 +12,7 @@ import os, subprocess
 #
 parser = argparse.ArgumentParser(description='Extract important profile info from Watson results.')
 parser.add_argument('-p', '--profile-name', type=str, nargs='?', required=True,
-                    dest='name', help='name of the profile to process')
+                    dest='name', help='name of the profile to process, excluding extension')
 
 args = parser.parse_args()
 
