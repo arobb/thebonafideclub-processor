@@ -6,7 +6,7 @@ The system that generates the "secret sauce" score for https://thebonafide.club 
 1. Run the sample generator; it creates a sample corpus based on a Watson example  
   `sample/generate-sample-corpus.sh`
 
-1. Run the corpus processor to run the corpuses through Watson  
+1. Execute the processor to feed the sample corpus through Watson  
   `bin/process-corpus.sh corpus-profiles/sample.corpus`
 
 1. Distill down the Watson outputs to the core user score  
@@ -19,7 +19,7 @@ The system that generates the "secret sauce" score for https://thebonafide.club 
 1. Pull down the user-chat histories from The Bona Fide Club
   `bin/get-corpus.sh`
 
-1. Run the corpus processor to run the corpuses through Watson  
+1. Run the processor multiple times to feed all corpora through Watson  
   `for p in ./corpus-profiles/*.corpus; do bin/process-corpus.sh "$p"; done`
 
 1. Distill down the Watson outputs to the core user scores  
